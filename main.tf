@@ -9,6 +9,8 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
+  access_key = "AKIAUASHZC5Z5L2FLKAR"
+  secret_key = "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"
 }
 
 # Creating nginx_server 

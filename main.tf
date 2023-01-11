@@ -25,3 +25,10 @@ resource "aws_instance" "nginx_server" {
     Name = "nginx_ser"
   }
 }
+
+#Creating IAM user
+
+resource "aws_iam_user" "user" {
+  name = "test-user"
+}
+

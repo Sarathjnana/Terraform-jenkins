@@ -18,7 +18,7 @@ provider "aws" {
 resource "aws_instance" "nginx_server" {
   ami           = "ami-0f69bc5520884278e"
   instance_type = "t2.micro"
-  availability_zone = "ap-south-1"
+#  availability_zone = "ap-south-1"
   user_data = file("apply.sh")
 
   tags = {
